@@ -1,0 +1,22 @@
+<div class="header">
+    <h3 class="text-muted">elzar</h3>
+</div>
+
+<div class="recipe-list">
+    <table>
+        <tr class="recipe-row" ng-repeat="menuItem in menu">
+            <td class="date-box">
+                <div class="menu-weekday">{{menuItem.dayOfWeek}}</div>
+                <div class="menu-date">{{menuItem.date}}</div>
+            </td>
+            <td>
+                <span class="recipe">{{menuItem.recipe.name}}</span>
+                <span class="prep-rating">difficulty:  {{menuItem.recipe.prepRating}}</span>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="footer">
+
+</div>
