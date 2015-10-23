@@ -5,6 +5,8 @@ Weekly menu planner
 To save time on Sundays, i built this Angular Single-Page App to help build the weekly menu.
 It includes the dates and days of the week next to each randomly selected menu item.
 
+Of course, i didn't build this myself.  i used the Angular-Generator plugin for Yeoman.  As a result, a lot of files in here are not mine, have not been adopted to the project functionality by me, and may contain code i am not familiar with.  The main page of the project though does contain only those elements and scripts i wrote, and my recipe controller, and my modified stylesheet.
+
 Each menu item also has a Prep Difficulty rating next to it.  That way they can be sorted so
 the easier stuff is at the beginning of the week, when we are busy with other activities 
 in the evening.  
