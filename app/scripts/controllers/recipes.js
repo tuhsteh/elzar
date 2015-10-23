@@ -34,12 +34,11 @@ var _dayOfWeekInitial = function _dayOfWeekInitial(dayOfWeekInteger) {
     _buildMenu = function _buildMenu(d, r) {
         var menu = [];
         for (var i = 0; i < d.length; i++) {
-            var menuItem = {
+            menu[i] = {
                 dayOfWeek: _dayOfWeekInitial(d[i].getDay()),
                 date: d[i].getDate(),
                 recipe: r[i]
             };
-            menu[i] = menuItem;
         }
         return menu;
     };
